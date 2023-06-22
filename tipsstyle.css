@@ -1,0 +1,12 @@
+h1{
+    font-family: Planta;
+    src: url("plante/Plante.ttf");
+    color: #2d3131;
+}
+
+.tip-box h3
+{
+    font-family: Planta;
+    src: url("plante/Plante.ttf");
+    color: #2b3c4b;
+}
