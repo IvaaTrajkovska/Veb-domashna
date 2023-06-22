@@ -1,0 +1,18 @@
+h1{
+    font-family: Planta;
+    src: url("plante/Plante.ttf");
+    color: #2d3131;
+}
+
+.destination h2
+{
+    font-family: vogue;
+    src: url("vogue/Vogue.ttf");
+    color: #2b3c4b;
+}
+
+.destination p
+{
+    font-family: Planta;
+    src: url("plante/Plante.ttf");
+}
