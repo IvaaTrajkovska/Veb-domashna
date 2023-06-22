@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="tipsstyle.css">
+  <title> Tips</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f3f3f3;
+      background-image: url("images/background1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      background-image: url("images/bgheader.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    nav {
+      background-color: dimgrey;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    .tip-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .tip-box {
+      width: 220px;
+      height: 210px;
+      border-radius: 50%;
+      background-color: #f9f9f9;
+      text-align: center;
+      padding: 20px;
+      margin: 20px;
+    }
+
+    .tip-box img {
+      max-width: 60%;
+      height: auto;
+      margin-top: 10px;
+      clip-path: circle(50% at center)
+    }
+
+    .footer {
+      background-color: #333333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Travel Blog</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="destination.html">Destinations</a></li>
+    <li><a href="tips.html">Tips</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+
+
+</nav>
+
+
+<div class="tip-container">
+  <div class="tip-box">
+    <h3> Book your flight in advance </h3>
+    <img src="images/tip1.jpg" alt="Tip 1 Photo">
+  </div>
+  <div class="tip-box">
+    <h3> Book your hotel in the right area </h3>
+    <img src="images/tip2.jpg" alt="Tip 2 Photo">
+  </div>
+  <div class="tip-box">
+    <h3> Book direct with the hotel </h3>
+    <img src="images/tip3.jpg" alt="Tip 3 Photo">
+  </div>
+  <div class="tip-box">
+    <h3> Keep an eye for special deals </h3>
+    <img src="images/tip4.jpg" alt="Tip 4 Photo">
+  </div>
+
+</div>
+<footer class="footer">
+  <p> &copy; 2023  Travel Blog. All rights reserved.</p>
+</footer>
+</body>
+</html>
