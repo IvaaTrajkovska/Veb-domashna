@@ -1,0 +1,20 @@
+h1{
+    font-family: Planta;
+    src: url("plante/Plante.ttf");
+    color: #2d3131;
+}
+
+
+.blog-header h2
+{
+    font-family: Planta;
+    src: url("plante/Plante.ttf");
+    color: #2b3c4b;
+}
+
+.blog-subtitle
+{
+
+    font-family: Planta;
+    src: url("plante/Plante.ttf");
+}
